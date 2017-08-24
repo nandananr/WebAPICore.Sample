@@ -35,13 +35,13 @@ namespace WebAPICore.Sample
         {
             // Adds a default in-memory implementation of IDistributedCache.
             // Adds a default in-memory implementation of IDistributedCache.
-            services.AddDistributedMemoryCache();
-            services.AddSession(options =>
-            {
-                // Set a short timeout for easy testing.
-                options.IdleTimeout = TimeSpan.FromSeconds(10);
-                options.CookieHttpOnly = true;
-            });
+            //services.AddDistributedMemoryCache();
+            //services.AddSession(options =>
+            //{
+            //    // Set a short timeout for easy testing.
+            //    options.IdleTimeout = TimeSpan.FromSeconds(10);
+            //   // options.CookieHttpOnly = true;
+            //});
 
             services.AddSingleton<ITempDataProvider, CookieTempDataProvider>();
             services.Configure<MessageLogConfig>(Configuration.GetSection("Logstash.Logger"));
@@ -65,7 +65,7 @@ namespace WebAPICore.Sample
                 app.UseDeveloperExceptionPage();
             }
             //If you try to access Session before UseSession has been called, the exception InvalidOperationException: Session has not been configured for this application or request is thrown.
-            app.UseSession();
+            //app.UseSession();
 
             app.UseMvc();
            
