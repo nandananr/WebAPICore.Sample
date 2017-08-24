@@ -13210,11 +13210,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\TAInnovation\\dotnetCore2.0\\WebAPICore.Sample\\WebAPICore.Sample\\WebAPICore.Sample.csproj",
+      "projectUniqueName": "C:\\TAInnovation\\dotnetCore2.0\\WebAPICore.Sample\\src\\WebAPICore.Sample\\WebAPICore.Sample.csproj",
       "projectName": "WebAPICore.Sample",
-      "projectPath": "C:\\TAInnovation\\dotnetCore2.0\\WebAPICore.Sample\\WebAPICore.Sample\\WebAPICore.Sample.csproj",
+      "projectPath": "C:\\TAInnovation\\dotnetCore2.0\\WebAPICore.Sample\\src\\WebAPICore.Sample\\WebAPICore.Sample.csproj",
       "packagesPath": "C:\\Users\\nanalapareddy\\.nuget\\packages\\",
-      "outputPath": "C:\\TAInnovation\\dotnetCore2.0\\WebAPICore.Sample\\WebAPICore.Sample\\obj\\",
+      "outputPath": "C:\\TAInnovation\\dotnetCore2.0\\WebAPICore.Sample\\src\\WebAPICore.Sample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
