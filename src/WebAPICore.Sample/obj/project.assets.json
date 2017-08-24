@@ -2719,24 +2719,6 @@
           }
         }
       },
-      "Middleware.Logging/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "DotNet.Safe.Standard": "1.1.0",
-          "Microsoft.AspNetCore.Http": "2.0.0",
-          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
-          "Microsoft.Extensions.Options": "2.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
-          "Newtonsoft.Json": "10.0.3",
-          "log4net": "2.0.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Middleware.Logging.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Middleware.Logging.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -7709,16 +7691,6 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Middleware.Logging/1.0.0": {
-      "sha512": "nOYwbIrNV7XvoLX4EuybAqGWkz8kcAaJseCDQ055UNGCI0uIEykpk/193RhHurIAtvX/EWqWWViFCj4OWcd0yw==",
-      "type": "package",
-      "path": "middleware.logging/1.0.0",
-      "files": [
-        "lib/netstandard2.0/Middleware.Logging.dll",
-        "middleware.logging.1.0.0.nupkg.sha512",
-        "middleware.logging.nuspec"
       ]
     },
     "NETStandard.Library/2.0.0": {
@@ -13193,8 +13165,11 @@
     ".NETCoreApp,Version=v2.0": [
       "DotNet.Safe.Standard >= 1.1.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.AspNetCore.Http >= 2.0.0",
+      "Microsoft.AspNetCore.Http.Extensions >= 2.0.0",
+      "Microsoft.Extensions.Options >= 2.0.0",
+      "Microsoft.Extensions.Options.ConfigurationExtensions >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Middleware.Logging >= 1.0.0",
       "Newtonsoft.Json >= 10.0.3",
       "Swashbuckle.AspNetCore >= 1.0.0",
       "log4net >= 2.0.8"
@@ -13249,26 +13224,38 @@
             "target": "Package",
             "version": "1.1.0"
           },
+          "Microsoft.AspNetCore.Http.Extensions": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "log4net": {
             "target": "Package",
             "version": "2.0.8"
+          },
+          "Microsoft.AspNetCore.Http": {
+            "target": "Package",
+            "version": "2.0.0"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
+          "Microsoft.Extensions.Options.ConfigurationExtensions": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "1.0.0"
           },
-          "Microsoft.AspNetCore.All": {
+          "Microsoft.Extensions.Options": {
             "target": "Package",
             "version": "2.0.0"
           },
-          "Middleware.Logging": {
+          "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "1.0.0"
+            "version": "2.0.0"
           },
           "Newtonsoft.Json": {
             "target": "Package",

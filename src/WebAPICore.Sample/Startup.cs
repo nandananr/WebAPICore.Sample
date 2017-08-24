@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Middleware.Logging;
-using Middleware.Logging.Config;
+using WebAPICore.Sample.Middleware;
+using WebAPICore.Sample.Middleware.Config;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Swashbuckle.AspNetCore.Swagger;
-using System.Xml; 
+using System.Xml;
 using System.IO;
 using System.Reflection;
 

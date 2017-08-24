@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "e776602227f1807cae51c04ffb2714da99f33706"
+    "signature": "87a1cb6fd813c055647e4278832657f214516a39"
   },
   "compilationOptions": {
     "defines": [
@@ -25,8 +25,11 @@
         "dependencies": {
           "DotNet.Safe.Standard": "1.1.0",
           "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
-          "Middleware.Logging": "1.0.0",
           "Newtonsoft.Json": "10.0.3",
           "Swashbuckle.AspNetCore": "1.0.0",
           "log4net": "2.0.8"
@@ -2367,23 +2370,6 @@
         },
         "compile": {
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
-        }
-      },
-      "Middleware.Logging/1.0.0": {
-        "dependencies": {
-          "DotNet.Safe.Standard": "1.1.0",
-          "Microsoft.AspNetCore.Http": "2.0.0",
-          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
-          "Microsoft.Extensions.Options": "2.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
-          "Newtonsoft.Json": "10.0.3",
-          "log4net": "2.0.8"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Middleware.Logging.dll": {}
-        },
-        "compile": {
-          "lib/netstandard2.0/Middleware.Logging.dll": {}
         }
       },
       "Newtonsoft.Json/10.0.3": {
@@ -5382,13 +5368,6 @@
       "sha512": "sha512-dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
       "path": "microsoft.win32.registry/4.4.0",
       "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
-    },
-    "Middleware.Logging/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nOYwbIrNV7XvoLX4EuybAqGWkz8kcAaJseCDQ055UNGCI0uIEykpk/193RhHurIAtvX/EWqWWViFCj4OWcd0yw==",
-      "path": "middleware.logging/1.0.0",
-      "hashPath": "middleware.logging.1.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/10.0.3": {
       "type": "package",
