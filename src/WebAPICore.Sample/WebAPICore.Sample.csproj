@@ -5,22 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\**" />
-    <Content Remove="wwwroot\**" />
-    <EmbeddedResource Remove="wwwroot\**" />
-    <None Remove="wwwroot\**" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotNet.Safe.Standard" Version="1.1.0" />
-    <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -19,10 +19,6 @@ namespace WebAPICore.Sample
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseConfiguration(new ConfigurationBuilder()
-                    .SetBasePath(Directory.GetCurrentDirectory())
-                    .AddJsonFile("hosting.json", optional: true)
-                    .Build())
                 .UseStartup<Startup>()
                 .Build();
     }
