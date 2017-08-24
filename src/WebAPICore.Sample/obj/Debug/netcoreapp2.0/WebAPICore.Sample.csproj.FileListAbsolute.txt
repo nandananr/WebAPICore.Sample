@@ -1,0 +1,11 @@
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\bin\Debug\netcoreapp2.0\WebAPICore.Sample.deps.json
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\bin\Debug\netcoreapp2.0\WebAPICore.Sample.runtimeconfig.json
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\bin\Debug\netcoreapp2.0\WebAPICore.Sample.runtimeconfig.dev.json
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\bin\Debug\netcoreapp2.0\WebAPICore.Sample.dll
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\bin\Debug\netcoreapp2.0\WebAPICore.Sample.pdb
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\obj\Debug\netcoreapp2.0\WebAPICore.Sample.csprojResolveAssemblyReference.cache
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\obj\Debug\netcoreapp2.0\WebAPICore.Sample.csproj.CoreCompileInputs.cache
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\obj\Debug\netcoreapp2.0\WebAPICore.Sample.AssemblyInfoInputs.cache
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\obj\Debug\netcoreapp2.0\WebAPICore.Sample.AssemblyInfo.cs
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\obj\Debug\netcoreapp2.0\WebAPICore.Sample.dll
+C:\TAInnovation\dotnetCore2.0\WebAPICore.Sample\WebAPICore.Sample\obj\Debug\netcoreapp2.0\WebAPICore.Sample.pdb
