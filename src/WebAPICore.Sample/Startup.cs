@@ -33,7 +33,7 @@ namespace WebAPICore.Sample
             //    ValidationAlgorithm = ValidationAlgorithm.HMACSHA256
             //});
 
-            services.AddDataProtection().DisableAutomaticKeyGeneration();
+            //services.AddDataProtection().DisableAutomaticKeyGeneration();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

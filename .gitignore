@@ -1,0 +1,12 @@
+
+*.props
+*.cache
+*.dll
+*.pdb
+src/WebAPICore.Sample/obj/Debug/netcoreapp2.0/WebAPICore.Sample.AssemblyInfo.cs
+src/.vs/config/applicationhost.config
+*.ide
+src/.vs/WebAPICore.Sample/v15/.suo
+*.targets
+src/WebAPICore.Sample/bin/Debug/netcoreapp2.0/WebAPICore.Sample.deps.json
+src/WebAPICore.Sample/bin/Debug/netcoreapp2.0/WebAPICore.Sample.runtimeconfig.dev.json
