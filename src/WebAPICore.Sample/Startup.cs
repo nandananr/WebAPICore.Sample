@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;
+using StackExchange.Redis;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
 
 namespace WebAPICore.Sample
 {
@@ -25,6 +27,12 @@ namespace WebAPICore.Sample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            var redis = ConnectionMultiplexer.Connect("localhost:6379");
+            services.AddDataProtection();
+            services.Configure<KeyManagementOptions>(o =>
+            {
+                o.XmlRepository = new RedisXmlRepository(() => redis.GetDatabase(), "DataProtection-Keys");
+            });
 
             // services.AddDataProtection().SetDefaultKeyLifetime(TimeSpan.FromDays(14));
             //services.AddDataProtection().UseCryptographicAlgorithms(new AuthenticatedEncryptorConfiguration()
