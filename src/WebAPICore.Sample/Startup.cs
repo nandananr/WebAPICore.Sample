@@ -26,18 +26,18 @@ namespace WebAPICore.Sample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            ConnectionMultiplexer redis = null;
-            if (redis == null)
-            {
-                ConfigurationOptions option = new ConfigurationOptions
-                {
-                    AbortOnConnectFail = false,                    
-                    EndPoints = { "localhost" }
-                };
-                redis = ConnectionMultiplexer.Connect(option);                
-            }
-            services.AddDataProtection()
-                    .PersistKeysToRedis(redis, "DataProtection-Keys");
+            //ConnectionMultiplexer redis = null;
+            //if (redis == null)
+            //{
+            //    ConfigurationOptions option = new ConfigurationOptions
+            //    {
+            //        AbortOnConnectFail = false,                    
+            //        EndPoints = { "localhost" }
+            //    };
+            //    redis = ConnectionMultiplexer.Connect(option);                
+            //}
+            //services.AddDataProtection()
+            //        .PersistKeysToRedis(redis, "DataProtection-Keys");
             services.AddMvc();
 
             //var redis = ConnectionMultiplexer.Connect("localhost:6379");
