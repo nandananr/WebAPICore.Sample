@@ -14,7 +14,14 @@ namespace WebAPICore.Sample
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            try
+            {
+                BuildWebHost(args).Run();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"{e.Message} |||| {e.StackTrace}");
+            }
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
